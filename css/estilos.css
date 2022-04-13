@@ -1,0 +1,141 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Pacifico', cursive; */ }
+  *::-webkit-scrollbar {
+    width: 12px;
+    background: #efefef; }
+  *::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 10px; }
+
+/*HEADER*/
+.navbar-brand {
+  padding: 0px 40px; }
+
+#navbarNav {
+  padding: 0px 40px; }
+  #navbarNav li {
+    margin-left: 50px; }
+    #navbarNav li a {
+      color: #000; }
+
+/*mainhome*/
+.main_home {
+  width: 100%;
+  background-color: skyblue;
+  background-image: url(../img/Pan_de_Jamón/roll_pan_jamon.jpg);
+  background-position: center center;
+  background-size: cover; }
+  .main_home .home {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.692);
+    padding: 100px 130px; }
+    .main_home .home .home-img {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 80px 80px; }
+      .main_home .home .home-img img {
+        width: 40%;
+        height: auto;
+        border-radius: 40x; }
+  .main_home .button_whats {
+    position: fixed;
+    right: 0;
+    bottom: 5%;
+    padding: 30px 30px; }
+    .main_home .button_whats img {
+      width: 50px;
+      height: 50px; }
+
+footer {
+  width: 100%;
+  background-color: #354D66;
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+  grid-template-rows: auto;
+  grid-template-areas: "a1 a2 a3" "a1 a4 a4" "a5 a5 a5"; }
+  footer .footer--logo {
+    grid-area: a1;
+    width: 100%;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px; }
+    footer .footer--logo p {
+      font-size: 16px;
+      color: #fff;
+      font-weight: 300; }
+    footer .footer--logo img {
+      width: 30%;
+      height: auto; }
+  footer .footer--menu {
+    grid-area: a2;
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 50px 40px; }
+    footer .footer--menu h2 {
+      font-weight: 700;
+      color: #fff; }
+    footer .footer--menu li {
+      list-style: none;
+      margin-top: 15px; }
+      footer .footer--menu li a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 300; }
+  footer .footer--social {
+    grid-area: a3;
+    width: 100%;
+    height: 100%;
+    /* background-color: skyblue; */
+    padding: 50px 40px; }
+    footer .footer--social h2 {
+      font-weight: 700;
+      color: #fff; }
+    footer .footer--social a img {
+      width: 32px;
+      height: 32px;
+      margin-top: 10px; }
+    footer .footer--social .margin-social {
+      margin-left: 20px; }
+  footer .footer-quejas {
+    grid-area: a4;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(79, 0, 99); */
+    padding: 30px 40px 40px 40px; }
+    footer .footer-quejas h2 {
+      font-weight: 900;
+      color: #fff; }
+    footer .footer-quejas p {
+      width: 80%;
+      padding-right: 40px;
+      color: #fff;
+      font-weight: 300; }
+  footer .derechos {
+    grid-area: a5;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #fff; }
+    footer .derechos h3 {
+      width: 100%;
+      height: 100%;
+      text-align: left;
+      font-weight: 500;
+      color: #fff;
+      font-size: 16px; }
