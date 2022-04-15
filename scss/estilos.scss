@@ -21,19 +21,27 @@
 
 /*HEADER*/
 
+.navbar{
+    background-color:  rgb(63, 63, 63);
+}
 .navbar-brand {
     padding: 0px 40px;
 }
 
 #navbarNav {
     padding: 0px 40px;
+    justify-content: flex-end;
+    align-items: center;
 
     li {
-        margin-left: 50px;
+
+        padding: 0px 40px;
 
         a {
-
-            color: #000;
+            /* color: rgb(66, 66, 66); */
+            font-size: 16px;
+            color: #fff;
+            font-weight: 500;
         }
     }
 }
@@ -42,7 +50,6 @@
 
 .main_home {
     width: 100%;
-    background-color: skyblue;
     background-image: url(../img/Pan_de_Jamón/roll_pan_jamon.jpg);
     background-position: center center;
     background-size: cover;
@@ -86,9 +93,193 @@
     }
 }
 
+/*about me*/
+
+.about{
+
+    width: 100%;
+
+    .title-about{
+        width: 100%;
+        background-color:  rgb(63, 63, 63);
+        padding: 150px 0px ;
+    
+        h1{
+            font-family: $cursive;
+            font-size: $title_sections;
+            text-align: center;
+            color: #fff;
+        }
+    }
+
+    .about-container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-auto-rows: 500px ;
+        grid-gap: 40px;
+        padding: 100px; 
+
+        .about-container-img{
+            width: 100%;
+            height: 100%;
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .about-p{
+            width: 100%;
+            height: 100%;
+
+            h2{
+                font-size: 35px;
+            }
+
+            p{
+                width: 100%;
+                height: 100%;
+                text-align: justify;
+                font-weight: 300;
+            }
+        }
+
+        .img1{
+            width: 100%;
+            height: 100%;
+            grid-column-start: span 2;
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .img2{
+            width: 100%;
+            height: 100%;
+            grid-column-start: span 2;
+            background-color: rgb(32, 32, 32);
+            border-radius: 20px;
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+
+        .img3{
+            width: 100%;
+            height: 100%;
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .about-p2{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+
+            p{
+                font-size: 16px;
+                font-weight: 300;
+                text-align: justify;
+                height: 50%;
+            }
+
+            img{
+                height: 40%;
+                width: auto;
+                padding-top: 30px;
+            }
+        }
+
+
+        .about-p3{
+            width: 100%;
+            height: 100%;
+
+            p{
+                font-size: 16px;
+                font-weight: 300;
+                text-align: justify;
+
+            }
+        }
+
+        .img4{
+            width: 100%;
+            height: 100%;
+            grid-column-start: span 3;
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        img{
+            border-radius: 20px;
+        }
+    }
+
+
+
+    .button_whats {
+        position: fixed;
+        right: 0;
+        bottom: 5%;
+        padding: 30px 30px;
+
+        img {
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
 footer{
     width: 100%;
-    background-color: $color_3;
+    background-color: $color_4;
     display: grid;
     grid-template-columns: 40% 30% 30%;
     grid-template-rows: auto; // 
@@ -107,8 +298,9 @@ footer{
 
         p{
             font-size: 16px;
-            color: #fff;
-            font-weight: 300;
+            color: #000;
+            font-weight: 500;
+            text-align: justify;
         }
 
         img{
@@ -121,12 +313,11 @@ footer{
         grid-area: a2;
         width: 100%;
         height: 100%;
-        /* background-color: red; */
         padding: 50px 40px ;
 
         h2{
             font-weight: 700;
-            color: #fff;
+            color: #000;
         }
 
         li{
@@ -135,8 +326,9 @@ footer{
 
             a{
                 text-decoration: none;
-                color: #fff;
-                font-weight: 300;
+                color: #000;
+                font-weight: 500;
+                font-size: 16px;
             }
         }
     }
@@ -150,7 +342,7 @@ footer{
 
         h2{
             font-weight: 700;
-            color: #fff;
+            color: #000;
         }
         
         a{  
@@ -176,14 +368,21 @@ footer{
 
         h2{
             font-weight: 900;
-            color: #fff;
+            color: #000;
         }
 
         p{  
             width: 80%;
             padding-right: 40px;
-            color: #fff;
-            font-weight: 300;
+            color: #000;
+            font-weight: 500;
+            font-size: 16px;
+            text-align: justify;
+
+            a{
+                text-decoration-color: red;
+                color: red;
+            }
         }
 
     }
@@ -197,14 +396,14 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        border-top: 1px solid #fff;
+        border-top: 1px solid #000;
 
         h3{
             width: 100%;
             height: 100%;
             text-align: left;
             font-weight: 500;
-            color: #fff;
+            color: #000;
             font-size: 16px;
         }
     }
