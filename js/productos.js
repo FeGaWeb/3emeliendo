@@ -9,14 +9,21 @@ const cards = document.getElementById("cardsContainer");
 
             array.forEach((producto) => {
                 const div = document.createElement('div')
-                div.classList.add('prod-card', 'm-2', 'd-flex', 'flex-column',)
+                div.classList.add('prod-card-container', 'm-2', 'd-flex', 'flex-column',)
                 div.innerHTML += `
-                            <img src="${producto.img}" class="card-img-standard my-2" alt="">
-                            <div class="card-info">
-                                <h5 class="card-title-standard">${producto.name}</h5>
-                                <p class="card-text-standard ">${producto.desc}</p>  
-                            </div>
-                            <button id="${producto.id}" class="btn btn-standard m-1 mt-4 text-dark ">Realizar mi pedido</button>
+                                    <div class="prod-card" style="background-image: url(${producto.img});">
+                                        <div class="card-info">
+                                            <h5 class="card-title-standard text-light">${producto.name}</h5>
+                                            <p class="card-text-standard text-light">${producto.desc}</p>  
+                                        </div>
+                    
+                                    </div>
+                                    <a href=${producto.whatsappBtn}>
+                                        <button id="${producto.id}" class="btn btn-standard m-1 mt-4 text-dark ">
+                                            Realizar mi pedido
+                                        </button>
+                                    </a>
+                                    
                     `
         cards.appendChild(div)
 

@@ -1,6 +1,7 @@
 @import "../variables.scss";
 
 main {
+    background-color: #eeeeee;
     .button_whats {
         position: fixed;
         right: 0;
@@ -16,24 +17,66 @@ main {
         
     }
     .productos-sec1{
-        .prod-card{
-            
+        .prod-card-container{
+            .prod-card {
+                border-radius: 16px;
+                margin: 0 auto;
+                width: 350px;
+                height: 350px;
+                max-width: 100%;
+                min-height: 400px;
+                box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+                  0px 5px 8px 0px rgba(0, 0, 0, 0.14),
+                  0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+                overflow: hidden;
+                background-size: cover;
+                    .card-info {
+                    position: relative;
+                    width: 100%;
+                    height: 400px;
+                    background-color: rgba(99, 88, 88, 0.521);
+                    transform: translateY(100%)
+                    translateY(-88px)
+                    translateZ(0);
+                    transition: transform 0.5s ease-out;
 
-            .card-img-standard{
-                width: 20rem;
-                height: 20rem;
-                box-shadow: 6px 10px 10px #474444;
-                border-radius: 8px;
-
-            }
-            .card-info{
-                .card-title-standard{
-                    overflow: hidden;
+                    .card-title-standard {
+                        margin: 0;
+                        padding: 30px;
+                        font-size: 30px;
+                      }
+                      
+                      .card-text-standard {
+                        margin-top: 0px;
+                        padding: 0 24px 24px;
+                        font-size: 18px;
+                      }
                 }
-                .card-text-standard{
+                    .card-info:before {
+                    z-index: -1;
+                    display: block;
+                    position: absolute;
+                    content: ' ';
+                    width: 100%;
+                    height: 100%;
                     overflow: hidden;
+                    background-color: #000;
+                    filter: blur(10px);
+                    background-size: cover;
+                    opacity: 0.25;
+                    transform: translateY(-100%)
+                    translateY(88px)
+                    translateZ(0);
+                    transition: transform 0.5s ease-out;
                 }
-            }
+              }
+              
+              .prod-card:hover .card-info,
+              .prod-card:hover .card-info:before {
+                transform: translateY(0) translateZ(0);
+              }
+              
+              
             .btn-standard{
                 background-color: #C0C0C0;
                 width: 10rem;
