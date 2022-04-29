@@ -3,7 +3,7 @@ let productosGenerales=[
     {
         id:"Golfeado",
         title:"Golfeados",
-        img:"../img/Golfeados/Golfeado.png",
+        img:"../img/Golfeados/golfeado.png",
         descripcion:"El golfeado es un postre característico de Venezuela, tiene forma cuadrada o circular, se puede parecer al caparazón de un caracol por la forma en la que es cortado, tiene como base: <br> Masa dulce con anís en pepitas.<br> Relleno de papelón (chancaca), queso, anís y azúcar. <br> Es un postre que tamaño individual, se entrega en su presentación por cantidad sobre un papel antiadherente, en bolsa de celofán o cajas y en su presentación individual en bolsas de celofán.",
     },
 
@@ -17,7 +17,7 @@ let productosGenerales=[
     {
         id:"Pan 3eme",
         title:"Pan 3eme",
-        img:"../img/pan/pan.jpg",
+        img:"../img/Pan/pan.jpg",
         descripcion:"El golfeado es un postre característico de Venezuela, tiene forma cuadrada o circular, se puede parecer al caparazón de un caracol por la forma en la que es cortado, tiene como base: <br> Masa dulce con anís en pepitas.<br> Relleno de papelón (chancaca), queso, anís y azúcar. <br> Es un postre que tamaño individual, se entrega en su presentación por cantidad sobre un papel antiadherente, en bolsa de celofán o cajas y en su presentación individual en bolsas de celofán.",
     },
 
