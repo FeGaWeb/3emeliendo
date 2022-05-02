@@ -1,7 +1,5 @@
 import { stockProductos } from "./data/stockProductos.js";
 
-
-
 const cards = document.getElementById("cardsContainer");
 
  const renderCards = (array) => {

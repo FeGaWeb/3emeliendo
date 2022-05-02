@@ -10,7 +10,7 @@ export const stockProductos = [
         id: Math.random(),
         name: "Pan 3eme:",
         desc: "Mide 40cm aproximadamente, tiene como base:<br>400g de masa salada.<br>100g de queso fresco.<br>100g de queso de cabra.<br>100g de queso edam.<br>",
-        img: "../img/Pan/pan.jpg",
+        img: "../img/Pan/pan-3eme.jpg",
         whatsappBtn: "https://api.whatsapp.com/send?phone=+51931064404&text=Hola&nbsp;Mary!&nbsp;Te&nbsp;encargo&nbsp;Pan&nbsp;3eme, "
     },
     {
@@ -31,7 +31,7 @@ export const stockProductos = [
         id: Math.random(),
         name: "Pan de Guayaba",
         desc: "Es un pan dulce que viene relleno, mide 40 cm aproximadamente, tiene como base:<br>400g de masa dulce.<br>300g de mermelada de guayaba.<br><b>Presentación con queso:</b><br>400g de masa dulce.<br>150g de queso fresco.<br>150g de mermelada de guayaba.",
-        img: "../img/Pan_de_guayaba/Roll_guayaba.png",
+        img: "../img/Pan_de_guayaba/pan-de-guayaba.jpg",
         whatsappBtn: "https://api.whatsapp.com/send?phone=+51931064404&text=Hola&nbsp;Mary!&nbsp;Te&nbsp;encargo&nbsp;Pan&nbsp;de&nbsp;Guayaba, "
     },
     {
