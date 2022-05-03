@@ -24,7 +24,7 @@ export const stockProductos = [
         id: Math.random(),
         name: "Golfeados",
         desc: "Es un postre característico de Venezuela, tiene como base:<br>Masa dulce con anís en pepitas.<br>Relleno de papelón (chancaca), queso, anís y azúcar.",
-        img: "../img/Golfeados/golfeado.png",
+        img: "../img/Golfeados/golfeado-oscuro.jpg",
         whatsappBtn: "https://api.whatsapp.com/send?phone=+51931064404&text=Hola&nbsp;Mary!&nbsp;Te&nbsp;encargo&nbsp;Golfeados, "
     },
     {
