@@ -2,7 +2,7 @@ export const stockProductos = [
     {
         id: Math.random(),
         name: "Pan de Jamón",
-        desc: "Mide 40cm aproximadamente, tiene como base:<br>400g de masa salada.<br>100g de tocino.<br>25g de pasas.<br>25g de aceitunas.<br>",
+        desc: "Mide 40cm aproximadamente, tiene como base:<br>400g de masa salada.<br>100g de tocino.<br>25g de pasas.<br>25g de aceitunas.<br>300g de jamón<br>",
         img: "../img/Pan_de_Jamón/pan_de_jamon.jpg",
         whatsappBtn: "https://api.whatsapp.com/send?phone=+51931064404&text=Hola&nbsp;Mary!&nbsp;Te&nbsp;encargo&nbsp;Pan&nbsp;de&nbsp;Jamón, "
     },
@@ -16,7 +16,7 @@ export const stockProductos = [
     {
         id: Math.random(),
         name: "Cachitos",
-        desc: "Es un pan tamaño individual, que tiene como base:<br>100g de una masa semi dulce.<br>50g de relleno",
+        desc: "Es un pan tamaño individual, que tiene como base:<br>100g de una masa semi dulce.<br>50g de relleno a base de jamón y tocino.<br> Con sus variantes de:<br> Jamón, tocino y queso edam.<br> Jamón, tocino y queso crema.<br> Chocolate. ",
         img: "../img/Cachitos/cachito_card.jpg",
         whatsappBtn: "https://api.whatsapp.com/send?phone=+51931064404&text=Hola&nbsp;Mary!&nbsp;Te&nbsp;encargo&nbsp;Cachitos,&nbsp; "
     },
