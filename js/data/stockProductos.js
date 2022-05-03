@@ -2,7 +2,7 @@ export const stockProductos = [
     {
         id: Math.random(),
         name: "Pan de Jamón",
-        desc: "Mide 40cm aproximadamente, tiene como base:<br>400g de masa salada.<br>300g de jamón<br>100g de tocino.<br>25g de pasas.<br>25g de aceitunas.<br>",
+        desc: "Mide 40cm aproximadamente, tiene como base:<br>400g de masa salada.<br>300g de jamón.<br>100g de tocino.<br>25g de pasas.<br>25g de aceitunas.<br>",
         img: "../img/Pan_de_Jamón/pan_de_jamon.jpg",
         whatsappBtn: "https://api.whatsapp.com/send?phone=+51931064404&text=Hola&nbsp;Mary!&nbsp;Te&nbsp;encargo&nbsp;Pan&nbsp;de&nbsp;Jamón, "
     },
