@@ -1,7 +1,7 @@
     Swal.fire({
     title: 'Hola!',
     text: 'Recuerda que nuestros productos se realizan por encargue y con envío a domicilio.',
-    imageUrl: '../img/logos_3eme/Cachi.png',
+    imageUrl: '../img/logos_3eme/Cachi.webp',
     imageWidth: 200,
     imageHeight: 200,
     imageAlt: 'Cachito',
