@@ -510,8 +510,8 @@ body{
                     margin-top: 20px;
 
                     a {
-                        text-decoration-color: red;
-                        color: red;
+                        text-decoration-color: #2d4350;;
+                        color: #2d4350;;
                     }
                 }
             }
@@ -657,9 +657,23 @@ footer {
         h2 {
             font-weight: 600;
             a {
-                text-decoration-color: rgb(216, 25, 25);
-                color: rgb(216, 25, 25);
-            }
+                display: inline-block;
+                position: relative;
+                color: $color_1;
+                text-decoration: none;
+                }
+                a:after {
+                content: "";
+                display: block;
+                margin: auto;
+                height: 2px;
+                width: 0px;
+                transition: all .5s;
+                }
+                a:hover:after {
+                width: 100%;
+                background: $color_1;
+                }
         }
 
         p {
@@ -669,11 +683,6 @@ footer {
             font-weight: 500;
             font-size: 16px;
             text-align: justify;
-
-            a {
-                text-decoration-color: red;
-                color: red;
-            }
         }
 
     }
@@ -688,6 +697,7 @@ footer {
         justify-content: center;
         align-items: center;
         border-top: 1px solid #000;
+        background-color: rgb(226, 226, 226);
 
         h3 {
             width: 100%;
