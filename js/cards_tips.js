@@ -3,14 +3,14 @@ let productosGenerales = [
     {
         id: "Golfeado",
         title: "Golfeados",
-        img: "../img/Golfeados/golfeado.png",
+        img: "../img/Golfeados/golfeado.webp",
         descripcion: "Si tuviéramos que definir al golfeado, te diríamos que consiste en una masa suave y gomosa presentada con forma de caracol, saturada de papelón con dos tipos de queso y anís. ¡¿Muy antojable, no?!. El golfeado es primo lejano de los bollos de Chelsea y los roles de canela, pero aún mejor, porque combina esos sabores dulces.<br><br>Según la tradición popular el nombre de “golfiao” o “golfeado” nació hace más de un siglo en la hacienda cafetera “El Hoyo de las Tapias”, que surtía de café a Caracas. Al café le nace una semilla en forma de caracol y a ésta los campesinos la llamaban “golfiao”. Deducen que alguien, al ver este pastel, le dijo a la señora María Duarte “deme eso que parece un golfiao”.<br><br><br><br>",
     },
 
     {
         id: "Pan de Jamón",
         title: "Pan de Jamón",
-        img: "../img/Pan_de_Jamón/pan_de_jamon.jpg",
+        img: "../img/Pan_de_Jamón/pan_de_jamon.webp",
         descripcion: "Desde hace un siglo, el pan de jamón no puede faltar en la mesa navideña de una familia venezolana. Y ahora, cuando casi tres millones de venezolanos están fuera de su país, este plato se ha convertido en una comida que los conecta con su tierra. Especialmente en esta época del año en la que muchos estarán lejos de casa por primera vez. <br><br> ¿De dónde viene el pan de jamón? Según el periodista gastronómico venezolano Miro Popié, autor de El nuevo libro del pan de jamón, la receta se inventó en 1905 en la panadería Ramella, en Caracas.<br><br>Fuente: <a href='https://migravenezuela.com/web/articulo/pan-de-jamon-receta-del-plato-tipico-de-la-navidad-venezolana/808' target='_blank'>migravenezuela.com</a>  <br><br>",
     },
 
